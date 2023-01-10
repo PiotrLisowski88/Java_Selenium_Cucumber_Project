@@ -17,5 +17,5 @@ Feature: Purchase product with discount and pay by check
     Examples:
 
       | size  | number | email              | password |
-      | 2     | 5     | kontovod@gmail.com | zzii9338 |
+      | 2     | 5      | kontovod@gmail.com | zzii9338 |
 
