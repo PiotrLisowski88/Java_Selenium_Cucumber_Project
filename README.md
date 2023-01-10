@@ -1,7 +1,7 @@
 # Java_Selenium_Cucumber_Project
 2 cucumber projects using Java and Selenium Webdriver
 
-@newAddressTest: Selenium WebDriver + Cucumber + Page Object Pattern
+@newAddressTest: Java + Selenium WebDriver + Cucumber + Page Object Pattern + Junit
 
 Create a user manually at https://mystore-testlab.coderslab.pl.
 
@@ -16,4 +16,18 @@ will delete the above address by clicking on "delete",
 will check if the address has been deleted.
 
 
-Translated with www.DeepL.com/Translator (free version)
+@productPurchaseTest: Java + Selenium WebDriver + Cucumber + Page Object Pattern + Junit
+
+Write a script that:
+
+logs in the same user
+will select the Hummingbird Printed Sweater for purchase (additional option: make it so that you can check if the discount on it is 20%),
+will choose size M (additional option: make it so that you can parameterize the size and choose S,M,L,XL),
+will select 5 pieces according to the parameter given in the test (additional option: make it so that you can parameterize the number of pieces),
+add the product to the cart,
+will go to the option - checkout,
+will confirm the address,
+will select the pickup method - PrestaShop "pick up in store",
+will select the payment option - Pay by Check,
+will click on "order with an obligation to pay",
+will take a screenshot of the order confirmation and the amount.
