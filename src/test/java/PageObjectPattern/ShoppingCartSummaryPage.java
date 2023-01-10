@@ -9,7 +9,6 @@ import java.awt.*;
 import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
-import java.util.List;
 
 public class ShoppingCartSummaryPage {
 
@@ -44,13 +43,12 @@ public class ShoppingCartSummaryPage {
 
     public void takeScreenshot() {
         try {
-            // Create a Robot object
             Robot robot = new Robot();
 
             // Get the screen size
             Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 
-            // Capture the screen as a BufferedImage
+            // Capture the screen
             BufferedImage image = robot.createScreenCapture(new Rectangle(screenSize));
 
             // Save the screenshot to a file
